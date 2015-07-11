@@ -1,2 +1,3 @@
-# helpers
-Testing helpers for Meteor apps
+# velocity:helpers
+
+Testing helpers for Meteor apps.
