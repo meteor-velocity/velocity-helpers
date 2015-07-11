@@ -18,6 +18,7 @@ Package.onUse(function (api) {
   api.addFiles([
     'lib/export.es6',
 
+    'lib/exportGlobals.es6',
     'lib/getMethods.es6',
     'lib/spyOnMethod.es6'
   ])
@@ -29,6 +30,7 @@ Package.onTest(function(api) {
   api.use('velocity:helpers')
 
   api.addFiles([
+    'specs/helpers/exportGlobals.es6',
     'specs/helpers/methods.es6',
 
     'specs/getMethodsSpec.es6',

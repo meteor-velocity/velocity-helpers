@@ -5,7 +5,7 @@ describe('spyOnMethod', function () {
     })
 
     this.hasFakeBeenCalled = false;
-    VelocityHelpers.spyOnMethod('myMethod').and.callFake(
+    spyOnMethod('myMethod').and.callFake(
       () => this.hasFakeBeenCalled = true
     )
 
@@ -20,7 +20,7 @@ describe('spyOnMethod', function () {
     })
 
     this.hasFakeBeenCalled = false;
-    VelocityHelpers.spyOnMethod('myMethod').and.callFake(
+    spyOnMethod('myMethod').and.callFake(
       () => this.hasFakeBeenCalled = true
     )
 
@@ -37,7 +37,7 @@ describe('spyOnMethod', function () {
       myUnstubbedMethod: () => this.hasMyUnstubbedMethodBeenCalled = true
     })
 
-    VelocityHelpers.spyOnMethod('myMethod').and.callFake(function () {})
+    spyOnMethod('myMethod').and.callFake(function () {})
 
     Meteor.call('myUnstubbedMethod')
 

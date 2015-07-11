@@ -5,7 +5,7 @@ describe('getMethods', function () {
       myMethod: myMethod
     })
 
-    const methods = VelocityHelpers.getMethods()
+    const methods = getMethods()
 
     expect(methods.myMethod).toBe(myMethod)
   });
