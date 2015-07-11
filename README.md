@@ -32,6 +32,6 @@ Gives you a [spy](http://jasmine.github.io/2.3/introduction.html#section-Spies) 
 ## Contribution guidelines
 
 * Use pull-requests
-* Use ES2015 and the [Xolvio Style Guide](https://github.com/xolvio/javascript-style-guide)
+* Use ES2015 and the [Xolv.io Style Guide](https://github.com/xolvio/javascript-style-guide)
 * Use test driven development
 * Use Git Flow
