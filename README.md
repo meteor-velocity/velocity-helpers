@@ -6,4 +6,5 @@ Testing helpers for Meteor apps.
 
 * Use pull-requests
 * Use ES2015 and the [Xolvio Style Guide](https://github.com/xolvio/javascript-style-guide)
+* Use test driven development
 * Use Git Flow
