@@ -8,5 +8,5 @@ describe('getMethods', function () {
     const methods = getMethods()
 
     expect(methods.myMethod).toBe(myMethod)
-  });
-});
+  })
+})

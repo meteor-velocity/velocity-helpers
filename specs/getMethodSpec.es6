@@ -6,5 +6,5 @@ describe('getMethod', function () {
     })
 
     expect(getMethod('myMethod')).toBe(myMethod)
-  });
+  })
 });

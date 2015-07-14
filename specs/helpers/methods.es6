@@ -5,12 +5,12 @@ class Api {
   methods(methods) {
     var methodHandlers = Meteor.isServer ?
       Meteor.server.method_handlers :
-      Meteor.connection._methodHandlers;
+      Meteor.connection._methodHandlers
 
     _.each(methods, function (func, name) {
-      methodHandlers[name] = func;
-    });
+      methodHandlers[name] = func
+    })
   }
 }
 
-this.Api = new Api();
+this.Api = new Api()
