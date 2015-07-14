@@ -21,6 +21,10 @@ beforeAll(function () {
 In addition to this documentation, also look at the specs for them.
 This will give you example usages.
 
+#### getMethod(methodName: string)
+
+Returns the requested Meteor method function.
+
 #### getMethods()
 
 Returns a hash of all Meteor methods.

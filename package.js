@@ -19,6 +19,7 @@ Package.onUse(function (api) {
     'lib/export.es6',
 
     'lib/exportGlobals.es6',
+    'lib/getMethod.es6',
     'lib/getMethods.es6',
     'lib/spyOnMethod.es6'
   ])
@@ -33,6 +34,7 @@ Package.onTest(function(api) {
     'specs/helpers/exportGlobals.es6',
     'specs/helpers/methods.es6',
 
+    'specs/getMethodSpec.es6',
     'specs/getMethodsSpec.es6',
     'specs/spyOnMethodSpec.es6'
   ])
