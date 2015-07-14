@@ -13,12 +13,14 @@ Package.onUse(function (api) {
   api.versionsFrom('METEOR@1.1.0.2')
 
   api.use('underscore')
+  api.use('jquery')
   api.use('grigio:babel@0.1.4')
 
   api.addFiles([
     'lib/export.es6',
 
     'lib/exportGlobals.es6',
+    'lib/getElement.es6',
     'lib/getMethod.es6',
     'lib/getMethods.es6',
     'lib/spyOnMethod.es6'
@@ -34,6 +36,7 @@ Package.onTest(function(api) {
     'specs/helpers/exportGlobals.es6',
     'specs/helpers/methods.es6',
 
+    'specs/getElementSpec.es6',
     'specs/getMethodSpec.es6',
     'specs/getMethodsSpec.es6',
     'specs/spyOnMethodSpec.es6'

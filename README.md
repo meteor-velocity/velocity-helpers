@@ -21,6 +21,10 @@ beforeAll(function () {
 In addition to this documentation, also look at the specs for them.
 This will give you example usages.
 
+#### getElement(selector: string, context: element)
+
+Like `$(selector, context)` but it throws an error when the element has not been found.
+
 #### getMethod(methodName: string)
 
 Returns the requested Meteor method function.
