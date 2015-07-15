@@ -23,7 +23,8 @@ Package.onUse(function (api) {
     'lib/getElement.es6',
     'lib/getMethod.es6',
     'lib/getMethods.es6',
-    'lib/spyOnMethod.es6'
+    'lib/spyOnMethod.es6',
+    'lib/waitFor.es6'
   ])
 })
 
@@ -39,6 +40,7 @@ Package.onTest(function(api) {
     'specs/getElementSpec.es6',
     'specs/getMethodSpec.es6',
     'specs/getMethodsSpec.es6',
-    'specs/spyOnMethodSpec.es6'
+    'specs/spyOnMethodSpec.es6',
+    'specs/waitForSpec.es6'
   ])
 })

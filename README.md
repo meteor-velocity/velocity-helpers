@@ -37,6 +37,10 @@ Returns a hash of all Meteor methods.
 
 Gives you a [spy](http://jasmine.github.io/2.3/introduction.html#section-Spies) for a Meteor method.
 
+#### waitFor(check: function, successCallback: function) (Jasmine only)
+
+Waits until the check function returns true and then calls the success callback.
+
 ## Contribution guidelines
 
 * Use pull-requests
