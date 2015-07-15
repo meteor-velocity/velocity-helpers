@@ -33,7 +33,7 @@ Returns the requested Meteor method function.
 
 Returns a hash of all Meteor methods.
 
-#### spyOnMethod(methodName: string)
+#### spyOnMethod(methodName: string) (Jasmine only)
 
 Gives you a [spy](http://jasmine.github.io/2.3/introduction.html#section-Spies) for a Meteor method.
 
