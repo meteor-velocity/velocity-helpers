@@ -4,8 +4,6 @@ Testing helpers for Meteor apps.
 
 ## How to use
 
-Right now only Jasmine is supported.
-
 By default all testing helpers are on the `VelocityHelpers` object.
 To have less to write in your tests, you can export the testing helpers to the global namespace
 by putting this code into one of your spec files:
