@@ -1,6 +1,6 @@
 # velocity:helpers
 
-Testing helpers for Meteor apps.
+Testing helpers for Meteor apps to make common testing tasks straight forward.
 
 ## How to use
 
