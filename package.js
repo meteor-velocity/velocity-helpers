@@ -30,6 +30,7 @@ Package.onUse(function (api) {
 
 Package.onTest(function(api) {
   api.use('underscore')
+  api.use('jquery')
   api.use('ecmascript')
   api.use('sanjo:jasmine@0.16.4')
   api.use('velocity:helpers')
