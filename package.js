@@ -14,34 +14,34 @@ Package.onUse(function (api) {
 
   api.use('underscore')
   api.use('jquery')
-  api.use('grigio:babel@0.1.4')
+  api.use('ecmascript')
 
   api.addFiles([
-    'lib/export.es6',
+    'lib/export.js',
 
-    'lib/exportGlobals.es6',
-    'lib/getElement.es6',
-    'lib/getMethod.es6',
-    'lib/getMethods.es6',
-    'lib/spyOnMethod.es6',
-    'lib/waitFor.es6'
+    'lib/exportGlobals.js',
+    'lib/getElement.js',
+    'lib/getMethod.js',
+    'lib/getMethods.js',
+    'lib/spyOnMethod.js',
+    'lib/waitFor.js'
   ])
 })
 
 Package.onTest(function(api) {
   api.use('underscore')
-  api.use('grigio:babel@0.1.4')
+  api.use('ecmascript')
   api.use('sanjo:jasmine@0.16.4')
   api.use('velocity:helpers')
 
   api.addFiles([
-    'specs/helpers/exportGlobals.es6',
-    'specs/helpers/methods.es6',
+    'specs/helpers/exportGlobals.js',
+    'specs/helpers/methods.js',
 
-    'specs/getElementSpec.es6',
-    'specs/getMethodSpec.es6',
-    'specs/getMethodsSpec.es6',
-    'specs/spyOnMethodSpec.es6',
-    'specs/waitForSpec.es6'
+    'specs/getElementSpec.js',
+    'specs/getMethodSpec.js',
+    'specs/getMethodsSpec.js',
+    'specs/spyOnMethodSpec.js',
+    'specs/waitForSpec.js'
   ])
 })
