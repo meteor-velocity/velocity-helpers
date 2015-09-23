@@ -10,7 +10,7 @@ Package.onUse(function (api) {
 
   api.export('VelocityHelpers')
 
-  api.versionsFrom('METEOR@1.1.0.2')
+  api.versionsFrom('METEOR@1.2.0.1')
 
   api.use('underscore')
   api.use('jquery')
@@ -29,6 +29,8 @@ Package.onUse(function (api) {
 })
 
 Package.onTest(function(api) {
+  api.versionsFrom('METEOR@1.2.0.1')
+
   api.use('underscore')
   api.use('jquery')
   api.use('ecmascript')
