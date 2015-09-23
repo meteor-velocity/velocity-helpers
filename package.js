@@ -1,7 +1,7 @@
 Package.describe({
   name: 'velocity:helpers',
   summary: 'Testing helpers for Meteor apps',
-  version: '0.3.0',
+  version: '0.4.0',
   git: 'https://github.com/meteor-velocity/velocity-helpers.git',
   debugOnly: true
 })
