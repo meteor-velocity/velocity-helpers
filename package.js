@@ -29,6 +29,7 @@ Package.onUse(function (api) {
 })
 
 Package.onTest(function(api) {
+  api.use('underscore')
   api.use('grigio:babel@0.1.4')
   api.use('sanjo:jasmine@0.16.4')
   api.use('velocity:helpers')
