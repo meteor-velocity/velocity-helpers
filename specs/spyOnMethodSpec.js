@@ -1,6 +1,6 @@
 describe('spyOnMethod', function () {
   describe('mocking a method', function () {
-    it('allows you to mock a Meteor method to return a fake value', function () {
+    it('allows you to mock a Meteor method to return a fake value', function (done) {
       Api.methods({
         myMethod() {}
       })
@@ -10,10 +10,11 @@ describe('spyOnMethod', function () {
       Meteor.call('myMethod', (error, result) => {
         expect(error).toBeUndefined();
         expect(result).toBe('result');
+        done();
       })
     })
 
-    it('allows you to mock a Meteor method to throw an error', function () {
+    it('allows you to mock a Meteor method to throw an error', function (done) {
       Api.methods({
         myMethod() {}
       })
@@ -27,6 +28,7 @@ describe('spyOnMethod', function () {
       Meteor.call('myMethod', (error, result) => {
         expect(error).toBe(error);
         expect(result).toBeUndefined();
+        done()
       })
     });
   })
