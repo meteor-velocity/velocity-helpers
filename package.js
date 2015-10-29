@@ -34,7 +34,10 @@ Package.onTest(function(api) {
   api.use('underscore')
   api.use('jquery')
   api.use('ecmascript')
-  api.use('sanjo:jasmine@0.16.4')
+  api.use('sanjo:jasmine@0.20.2')
+  api.use('velocity:core@0.10.7')
+  api.use('velocity:console-reporter@0.1.4')
+  api.use('velocity:html-reporter@0.9.1')
   api.use('velocity:helpers')
 
   api.addFiles([
