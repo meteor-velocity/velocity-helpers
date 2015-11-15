@@ -1,7 +1,7 @@
 Package.describe({
   name: 'velocity:helpers',
   summary: 'Testing helpers for Meteor apps',
-  version: '0.4.0',
+  version: '0.5.0',
   git: 'https://github.com/meteor-velocity/velocity-helpers.git',
   debugOnly: true
 })
@@ -24,6 +24,7 @@ Package.onUse(function (api) {
     'lib/getMethod.js',
     'lib/getMethods.js',
     'lib/spyOnMethod.js',
+    'lib/stubMethod.js',
     'lib/waitFor.js'
   ])
 })
@@ -48,6 +49,7 @@ Package.onTest(function(api) {
     'specs/getMethodSpec.js',
     'specs/getMethodsSpec.js',
     'specs/spyOnMethodSpec.js',
+    'specs/stubMethodSpec.js',
     'specs/waitForSpec.js'
   ])
 })
