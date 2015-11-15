@@ -4,7 +4,7 @@ Testing helpers for Meteor apps to make common testing tasks straight forward.
 
 ## How to use
 
-[Learn how to use velocity:helpers](https://velocity.readme.io/docs/velocity-helpers)
+[Learn how to use velocity:helpers](https://meteor-testing.readme.io/v1.0/docs/velocity-helpers)
 
 ## Contribution guidelines
 
